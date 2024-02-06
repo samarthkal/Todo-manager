@@ -1,0 +1,41 @@
+2024-01-03T12:52:12.460+05:30  INFO 12168 --- [main] com.todo.TodoManagerApplication          : Starting TodoManagerApplication using Java 20.0.1 with PID 12168 (C:\Spring Core Framework\springcore\todo-manager\target\classes started by samar in C:\Spring Core Framework\springcore\todo-manager)
+2024-01-03T12:52:12.464+05:30  INFO 12168 --- [main] com.todo.TodoManagerApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-01-03T12:52:14.034+05:30  INFO 12168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-03T12:52:14.059+05:30  INFO 12168 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-03T12:52:14.060+05:30  INFO 12168 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-03T12:52:14.166+05:30  INFO 12168 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-03T12:52:14.167+05:30  INFO 12168 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1621 ms
+2024-01-03T12:52:14.764+05:30  INFO 12168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-03T12:52:14.775+05:30  INFO 12168 --- [main] com.todo.TodoManagerApplication          : Started TodoManagerApplication in 2.992 seconds (process running for 3.628)
+2024-01-03T12:52:23.759+05:30  INFO 12168 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-03T12:52:23.759+05:30  INFO 12168 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-03T12:52:23.760+05:30  INFO 12168 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-01-03T12:52:23.866+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : file Name file
+2024-01-03T12:52:23.868+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : file Size 362505
+2024-01-03T12:52:23.868+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : file content type application/pdf
+2024-01-03T12:52:23.868+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : original file name kalesam08.pdf
+2024-01-03T12:52:23.869+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : resources MultipartFile resource [file]
+2024-01-03T12:52:23.869+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : file extra false
+2024-01-03T12:52:23.869+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : file Name file
+2024-01-03T12:52:23.869+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : file Size 474429
+2024-01-03T12:52:23.869+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : file content type application/pdf
+2024-01-03T12:52:23.870+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : original file name QA_samarth (1).pdf
+2024-01-03T12:52:23.870+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : resources MultipartFile resource [file]
+2024-01-03T12:52:23.870+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : file extra false
+2024-01-03T12:52:23.870+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : file Name file
+2024-01-03T12:52:23.870+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : file Size 507481
+2024-01-03T12:52:23.870+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : file content type application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2024-01-03T12:52:23.870+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : original file name QA_samarth.docx
+2024-01-03T12:52:23.870+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : resources MultipartFile resource [file]
+2024-01-03T12:52:23.870+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : file extra false
+2024-01-03T12:52:23.871+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : file Name file
+2024-01-03T12:52:23.871+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : file Size 28035
+2024-01-03T12:52:23.871+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : file content type application/vnd.oasis.opendocument.text
+2024-01-03T12:52:23.871+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : original file name QA_samarth.odt
+2024-01-03T12:52:23.871+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : resources MultipartFile resource [file]
+2024-01-03T12:52:23.871+05:30  INFO 12168 --- [http-nio-8080-exec-2] com.todo.controllers.FileController      : file extra false
+2024-01-03T12:52:29.494+05:30  INFO 12168 --- [http-nio-8080-exec-3] com.todo.controllers.FileController      : file name image
+2024-01-03T12:52:29.495+05:30  INFO 12168 --- [http-nio-8080-exec-3] com.todo.controllers.FileController      : file content image/png
+2024-01-03T12:52:29.495+05:30  INFO 12168 --- [http-nio-8080-exec-3] com.todo.controllers.FileController      : original file name Screenshot (1).png
+2024-01-03T12:52:29.495+05:30  INFO 12168 --- [http-nio-8080-exec-3] com.todo.controllers.FileController      : file size 187568
+2024-01-03T12:52:29.495+05:30  INFO 12168 --- [http-nio-8080-exec-3] com.todo.controllers.FileController      : file resource MultipartFile resource [image]
